@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Login | Aissa Elfilali</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- LEFT SIDE -->
+        <section class="welcome">
+
+            <div class="welcome-content">
+
+                <p class="tag">WELCOME BACK</p>
+
+                <h1>
+                    Welcome<br>
+                    <span>Back.</span>
+                </h1>
+
+                <p class="description">
+                    Sign in to continue your journey and access
+                    your personal account.
+                </p>
+
+                <div class="features">
+                    <p>✓ Secure authentication</p>
+                    <p>✓ Simple user experience</p>
+                    <p>✓ Responsive design</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOGIN FORM -->
+        <section class="login-section">
+
+            <div class="login-box">
+
+                <div class="logo">
+                    A<span>.</span>
+                </div>
+
+                <h2>Sign in</h2>
+
+                <p class="login-subtitle">
+                    Enter your details to continue.
+                </p>
+
+
+                <form id="loginForm">
+
+                    <div class="input-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="you@example.com"
+                        >
+
+                        <small class="error" id="emailError"></small>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <div class="password-label">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <a href="#">
+                                Forgot password?
+                            </a>
+
+                        </div>
+
+                        <div class="password-input">
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter your password"
+                            >
+
+                            <button
+                                type="button"
+                                id="showPassword"
+                            >
+                                Show
+                            </button>
+
+                        </div>
+
+                        <small class="error" id="passwordError"></small>
+
+                    </div>
+
+
+                    <div class="remember">
+
+                        <label>
+                            <input type="checkbox">
+                            Remember me
+                        </label>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="login-btn"
+                    >
+                        Sign In
+                    </button>
+
+
+                    <div class="divider">
+                        <span>OR</span>
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="google-btn"
+                    >
+                        <span>G</span>
+                        Continue with Google
+                    </button>
+
+                </form>
+
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="#">Create account</a>
+                </p>
+
+                <p class="success" id="successMessage">
+                    Login successful! Welcome back.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
